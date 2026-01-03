@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ማሕቤ ቢዝነስ ማዕከል | Mahbe Business Center</title>
+    
+    <meta name="google-site-verification" content="FOyAAyP1C_fV915SCmpDu0ktm9u8eZsIQUMRgB07Sb0" />
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         :root {
@@ -75,7 +78,8 @@
         #lightbox img { max-width: 95%; max-height: 90%; object-fit: contain; }
         #lightbox.active { display: flex; }
 
-        footer { text-align: center; padding: 30px; font-size: 0.85rem; border-top: 1px solid #ddd; background: white; margin-top: 50px; }
+ዘ-ዓምደ ሥላሴ, [1/3/2026 2:15 AM]
+footer { text-align: center; padding: 30px; font-size: 0.85rem; border-top: 1px solid #ddd; background: white; margin-top: 50px; }
     </style>
 </head>
 <body>
@@ -145,7 +149,7 @@
             <div class="gallery-item"><img src="https://i.ibb.co/1fwpFk6H/20251216-002122.png" onclick="zoomImg(this)"></div>
             <div class="gallery-item"><img src="https://i.ibb.co/QF7PbLyj/20251215-155642.png" onclick="zoomImg(this)"></div>
             <div class="gallery-item"><img src="https://i.ibb.co/XN9qjfN/20251210-224030.jpg" onclick="zoomImg(this)"></div>
-            <div class="gallery-item"><img src="https://i.ibb.co/pj0G79js/20251210-225324.png" onclick="zoomImg(this)"></div>
+<div class="gallery-item"><img src="https://i.ibb.co/pj0G79js/20251210-225324.png" onclick="zoomImg(this)"></div>
             <div class="gallery-item"><img src="https://i.ibb.co/PZBYcCN3/20251209-234129.jpg" onclick="zoomImg(this)"></div>
             <div class="gallery-item"><img src="https://i.ibb.co/PsqD4xFT/20251202-120100.jpg" onclick="zoomImg(this)"></div>
             <div class="gallery-item"><img src="https://i.ibb.co/LLrvHzJ/20251205-104728.jpg" onclick="zoomImg(this)"></div>
@@ -177,8 +181,8 @@
         <div style="background:white; padding:25px; border-radius:15px; line-height:1.8; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
             <p><strong>ማሕቤ</strong> ማለት ሁለት ታላላቅ ትርጉሞች ያሉት ጥልቅ ስም ነው፦</p>
             <ul>
-                <li><strong>ማሕፀነ ቤተክርስቲያን ሚዲያ፦</strong> መንፈሳዊ አገልግሎቶችን፣ የቅዳሴ ትምህርቶችን እና ስብከተ ወንጌልን በዘመናዊ መንገድ የምናቀርብበት ክፍል ነው።</li>
-                <li><strong>ማሕቤ ሕትመት ቤት፦</strong> ማንኛውንም የግራፊክስ ዲዛይን እና የሕትመት ስራዎች በጥራት የምንሰራበት የንግድ ዘርፋችን ነው።</li>
+                <li><strong>ማሕፀነ ቤተክርስቲያን ሚዲያ፦</strong> መንፈሳዊ አገልግሎቶችን በዘመናዊ መንገድ የምናቀርብበት ክፍል ነው።</li>
+                <li><strong>ማሕቤ ሕትመት ቤት፦</strong> የግራፊክስ ዲዛይን እና የሕትመት ስራዎች በጥራት የምንሰራበት ዘርፍ ነው።</li>
             </ul>
         </div>
     </div>
@@ -186,7 +190,8 @@
     <div id="comment" class="content-section">
         <h2 style="text-align: center; color: var(--blue);">አስተያየትዎን ያጋሩን</h2>
         <div style="max-width:500px; margin:0 auto; background:white; padding:30px; border-radius:20px;">
-            <input type="text" id="userName" placeholder="ሙሉ ስምዎ" style="width:100%; padding:12px; margin:10px 0; border:1px solid #ddd; border-radius:10px;">
+]
+<input type="text" id="userName" placeholder="ሙሉ ስምዎ" style="width:100%; padding:12px; margin:10px 0; border:1px solid #ddd; border-radius:10px;">
             <textarea id="userComment" rows="5" placeholder="አስተያየትዎን እዚህ ይጻፉ..." style="width:100%; padding:12px; margin:10px 0; border:1px solid #ddd; border-radius:10px;"></textarea>
             <button onclick="sendToTelegram()" style="background:var(--blue); color:white; border:none; padding:15px; width:100%; border-radius:50px; cursor:pointer;">አስተያየቴን ላክ</button>
         </div>
@@ -217,7 +222,7 @@
             const name = document.getElementById('userName').value;
             const comment = document.getElementById('userComment').value;
             if (name === "" || comment === "") { alert("እባክዎ ስም እና አስተያየት ያስገቡ!"); return; }
-            window.open(`https://t.me/temu_amen?text=ስም፦ ${name}%0Aአስተያየት፦ ${comment}`, '_blank');
+            window.open(https://t.me/temu_amen?text=ስም፦ ${name}%0Aአስተያየት፦ ${comment}, '_blank');
         }
     </script>
 </body>
