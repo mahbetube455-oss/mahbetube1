@@ -78,7 +78,6 @@
         #lightbox img { max-width: 95%; max-height: 90%; object-fit: contain; }
         #lightbox.active { display: flex; }
 
-ዘ-ዓምደ ሥላሴ, [1/3/2026 2:15 AM]
 footer { text-align: center; padding: 30px; font-size: 0.85rem; border-top: 1px solid #ddd; background: white; margin-top: 50px; }
     </style>
 </head>
@@ -149,6 +148,7 @@ footer { text-align: center; padding: 30px; font-size: 0.85rem; border-top: 1px 
             <div class="gallery-item"><img src="https://i.ibb.co/1fwpFk6H/20251216-002122.png" onclick="zoomImg(this)"></div>
             <div class="gallery-item"><img src="https://i.ibb.co/QF7PbLyj/20251215-155642.png" onclick="zoomImg(this)"></div>
             <div class="gallery-item"><img src="https://i.ibb.co/XN9qjfN/20251210-224030.jpg" onclick="zoomImg(this)"></div>
+
 <div class="gallery-item"><img src="https://i.ibb.co/pj0G79js/20251210-225324.png" onclick="zoomImg(this)"></div>
             <div class="gallery-item"><img src="https://i.ibb.co/PZBYcCN3/20251209-234129.jpg" onclick="zoomImg(this)"></div>
             <div class="gallery-item"><img src="https://i.ibb.co/PsqD4xFT/20251202-120100.jpg" onclick="zoomImg(this)"></div>
@@ -190,7 +190,7 @@ footer { text-align: center; padding: 30px; font-size: 0.85rem; border-top: 1px 
     <div id="comment" class="content-section">
         <h2 style="text-align: center; color: var(--blue);">አስተያየትዎን ያጋሩን</h2>
         <div style="max-width:500px; margin:0 auto; background:white; padding:30px; border-radius:20px;">
-]
+
 <input type="text" id="userName" placeholder="ሙሉ ስምዎ" style="width:100%; padding:12px; margin:10px 0; border:1px solid #ddd; border-radius:10px;">
             <textarea id="userComment" rows="5" placeholder="አስተያየትዎን እዚህ ይጻፉ..." style="width:100%; padding:12px; margin:10px 0; border:1px solid #ddd; border-radius:10px;"></textarea>
             <button onclick="sendToTelegram()" style="background:var(--blue); color:white; border:none; padding:15px; width:100%; border-radius:50px; cursor:pointer;">አስተያየቴን ላክ</button>
